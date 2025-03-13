@@ -36,9 +36,6 @@ const BestMoments = () => {
               alt="Bachelor party"
               className="w-full h-full object-cover"
             />
-            {/* <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent">
-              <p className="text-white text-sm">Neal's Bachelor Party</p>
-            </div> */}
           </div>
         </div>
 
@@ -50,50 +47,17 @@ const BestMoments = () => {
               alt="New Year's Eve"
               className="w-full h-full object-cover"
             />
-            {/* <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent">
-              <p className="text-white text-sm">New Year's Eve</p>
-            </div> */}
           </div>
         </div>
 
         {/* iOS Share Sheet */}
         <div className="absolute -right-[7%] top-[10%]">
-          {/* <div className="p-4 border-b">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-blue-100"></div>
-              <div>
-                <p className="font-medium">Paradise in the sand</p>
-                <p className="text-sm text-gray-500">Dec 25, 2024 • 54 items</p>
-              </div>
-            </div>
-          </div>
-          <div className="p-4">
-            <div className="flex justify-between mb-4">
-              <button className="text-blue-500 text-sm font-medium">
-                Get link
-              </button>
-              <button className="text-blue-500 text-sm font-medium">
-                Options ›
-              </button>
-            </div>
-            <div className="grid grid-cols-4 gap-4 text-center">
-              {["AirDrop", "Messages", "Mail", "Bluetooth"].map((option) => (
-                <div key={option} className="flex flex-col items-center gap-2">
-                  <div className="w-12 h-12 rounded-full bg-gray-100"></div>
-                  <span className="text-xs">{option}</span>
-                </div>
-              ))}
-            </div>
-          </div> */}
           <div className="w-full h-full">
             <img
               src={assets.memory4}
               alt="New Year's Eve"
               className="w-full h-full object-cover"
             />
-            {/* <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent">
-              <p className="text-white text-sm">New Year's Eve</p>
-            </div> */}
           </div>
         </div>
       </div>

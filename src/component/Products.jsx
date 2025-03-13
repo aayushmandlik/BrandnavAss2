@@ -22,10 +22,10 @@ const Products = () => {
   //   );
 
   return (
-    <div className="bg-gray-50 py-12">
+    <div className="mt-15 py-12">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <h2 className="text-center text-gray-800 text-2xl font-medium mb-10">
+        <h2 className="text-center text-[#31323d] text-[32px] font-medium mb-10">
           Explore our wide selection of products that helps you
           <br />
           preserve your memories, in your own style.
@@ -36,7 +36,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* AirVault Cloud */}
           <div className="bg-white rounded-[48px] text-[#58585c] flex flex-col w-full">
-            <h3 className="text-[40px] px-14 pt-10 mb-3">
+            <h3 className="text-[40px] font-medium px-14 pt-10 mb-3">
               <span className="bg-gradient-to-r from-[#4873ff] via-[#593cff] to-[#ff3ccb] bg-clip-text text-transparent font-extrabold">
                 AirVault Cloud
               </span>{" "}
@@ -69,7 +69,7 @@ const Products = () => {
 
           {/* AirVault Go */}
           <div className="bg-white rounded-[48px] text-[#58585c] flex-1 relative">
-            <h3 className="text-[40px] px-14 pt-10 mb-3">
+            <h3 className="text-[40px] font-medium px-14 pt-10 mb-3">
               <span className="bg-gradient-to-r from-[#4873ff] via-[#593cff] to-[#ff3ccb] bg-clip-text text-transparent font-extrabold">
                 AirVault Go
               </span>{" "}
@@ -115,7 +115,7 @@ const Products = () => {
 
           <div className="flex flex-col md:flex-row justify-between">
             <div className="md:w-1/2 relative">
-              <p className="text-[#64667a] text-[22px] w-[80%] mb-4 relative z-10">
+              <p className="text-[#64667a] text-[22px] font-medium w-[80%] mb-4 relative z-10">
                 AirVault Pro brings together the power of distributed hosting
                 into a single compact package, allowing your team to
                 <span className="font-bold text-[#31323d]">
@@ -124,12 +124,12 @@ const Products = () => {
                 </span>
               </p>
 
-              <button className="border border-black rounded-full px-[24px] py-[12px] mt-14 text-xl font-semibold hover:bg-gray-50">
+              <button className="border border-black rounded-full px-[24px] py-[12px] my-12 text-xl font-semibold hover:bg-gray-50">
                 Try AirVault Now
               </button>
             </div>
 
-            <div className="w-[60%] absolute right-0 top-[10px]">
+            <div className="w-[60%] absolute right-0 top-[50px]">
               <img
                 src={assets.nas}
                 alt="AirVault Pro server"

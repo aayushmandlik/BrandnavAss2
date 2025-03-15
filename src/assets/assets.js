@@ -22,8 +22,17 @@ import frame3 from "./frame3.png";
 import frame4 from "./frame4.png";
 import frame5 from "./frame5.png";
 import cloudproduct from "./cloudproduct.png";
+import cloudproductmobile from "./cloudproductmobile.png";
 import goproduct from "./goproduct.png";
 import nas from "./nas.png";
+import mg11 from "./mg11.png";
+import mg12 from "./mg12.png";
+import mg13 from "./mg13.png";
+import mg21 from "./mg21.png";
+import mg22 from "./mg22.png";
+import mg31 from "./mg31.png";
+import mg32 from "./mg32.png";
+import mg33 from "./mg33.png";
 
 export const assets = {
   logo,
@@ -50,6 +59,15 @@ export const assets = {
   frame4,
   frame5,
   cloudproduct,
+  cloudproductmobile,
   goproduct,
   nas,
+  mg11,
+  mg12,
+  mg13,
+  mg21,
+  mg22,
+  mg31,
+  mg32,
+  mg33,
 };

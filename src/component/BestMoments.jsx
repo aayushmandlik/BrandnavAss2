@@ -90,17 +90,17 @@ const BestMoments = () => {
           </div>
         </div>
 
-        <div className="absolute md:left-[38%] left-[20%] top-[50%] md:-top-5 rounded-3xl overflow-hidden z-10">
+        <div className="absolute md:left-[38%] left-[15%] top-[55%] md:-top-5 rounded-3xl overflow-hidden z-10">
           <div className="w-full h-full">
             <img
               src={assets.frame3}
               alt="frame3"
-              className="w-full h-[270px] md:h-full object-cover"
+              className="w-full h-[310px] md:h-full object-cover"
             />
           </div>
         </div>
 
-        <div className="absolute h-full left-[-15%] md:left-[70%] bottom-[-100%] md:bottom-0 md:top-[20%] overflow-hidden z-[11]">
+        <div className="absolute h-full left-[-15%] md:left-[65%] bottom-[-100%] md:bottom-0 md:top-[20%] overflow-hidden z-[11]">
           <img
             src={assets.frame4}
             alt="frame4"

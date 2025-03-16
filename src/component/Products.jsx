@@ -3,24 +3,6 @@ import { assets } from "../assets/assets";
 import { useMediaQuery } from "react-responsive";
 
 const Products = () => {
-  //   return (
-  //     <div className="flex flex-col justify-center items-center p-10 mt-32">
-  //       <div className="text-center max-w-3xl mx-auto">
-  //         <p className="text-3xl text-[#31323d] front-medium">
-  //           Explore our wide selection of products that helps you preserve your
-  //           memories, in your own style.
-  //         </p>
-  //         <div className="flex">
-  //           <div className="bg-[#ffffff] rounded-lg">
-  //             <div>
-  //               <span>AirVault Cloud</span>
-  //               <span></span>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
@@ -36,8 +18,8 @@ const Products = () => {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-4 md:mx-0">
           {/* AirVault Cloud */}
-          <div className="bg-white rounded-[48px] text-[#58585c] flex flex-col w-full px-8 md:px-14">
-            <h3 className="text-[40px] font-mediump pt-10 mb-3">
+          <div className="bg-white rounded-[48px] text-[#58585c] flex flex-col w-full px-8 md:px-14 lg:px-0">
+            <h3 className="lg:text-[40px] text-[36px] font-medium pt-10 mb-3 lg:px-20 px-0.5 ">
               <span className="bg-gradient-to-r from-[#4873ff] via-[#593cff] to-[#ff3ccb] bg-clip-text text-transparent font-extrabold">
                 AirVault Cloud
               </span>{" "}
@@ -45,7 +27,7 @@ const Products = () => {
               <span className="font-bold text-[#31323d]">simple</span>.
             </h3>
 
-            <p className="text-[#64667a] text-[18px] md:text-[22px] mt-4 md:mt-0 font-medium">
+            <p className="text-[#64667a] text-[18px] md:text-[22px] mt-4 md:mt-0 font-medium lg:px-20 px-0">
               AirVault Cloud lets you pack light on your trips so you can{" "}
               <span className="font-bold text-[#31323d]">
                 explore the world with just your phone
@@ -54,7 +36,7 @@ const Products = () => {
             </p>
 
             <div className="flex justify-between flex-col md:flex-row md:items-center mt-12 md:mt-auto gap-6 md:gap-0">
-              <button className="border border-black rounded-full px-[24px] py-[12px] text-xl font-semibold hover:bg-gray-50 w-fit">
+              <button className="border border-black rounded-full px-[24px] py-[12px] text-xl font-semibold hover:bg-gray-50 w-fit lg:ml-20 ml-0">
                 Try AirVault Now
               </button>
 
@@ -71,8 +53,8 @@ const Products = () => {
           </div>
 
           {/* AirVault Go */}
-          <div className="bg-white rounded-[48px] text-[#58585c] flex-1 relative pl-8 md:pl-14 overflow-hidden">
-            <h3 className="text-[40px] font-medium pt-10 mb-3 pr-8">
+          <div className="bg-white rounded-[48px] text-[#58585c] flex-1 relative overflow-hidden">
+            <h3 className="lg:text-[40px] text-[36px] font-medium pt-10 mb-3 lg:px-20 px-8">
               <span className="bg-gradient-to-r from-[#4873ff] via-[#593cff] to-[#ff3ccb] bg-clip-text text-transparent font-extrabold">
                 AirVault Go
               </span>{" "}
@@ -81,7 +63,7 @@ const Products = () => {
             </h3>
 
             <div className="flex flex-col justify-start relative">
-              <p className="text-[#64667a] w-[60%] text-[18px] md:text-[22px] font-medium mb-4">
+              <p className="text-[#64667a] w-[70%] text-[18px] md:text-[22px] font-medium lg:mb-15 mb-0 lg:px-20 px-8">
                 AirVault Go lets you{" "}
                 <span className="font-bold text-[#31323d]">
                   keep all your memories in your pocket
@@ -90,14 +72,14 @@ const Products = () => {
                 adventures.
               </p>
 
-              <button className="border border-black my-10 md:my-4 rounded-full px-[24px] py-[12px] text-[18px] md:text-xl font-semibold hover:bg-gray-50 w-fit">
+              <button className="border border-black my-10 md:my-4 rounded-full px-[24px] py-[12px] text-[18px] font-semibold hover:bg-gray-50 w-fit lg:ml-20 ml-8">
                 Try AirVault Now
               </button>
-              <div className="absolute -right-10 md:right-0 overflow-hidden top-[-50px] h-[360px]">
+              <div className="absolute -right-10 md:right-0 overflow-hidden lg:top-[-90px] top-[-50px] h-[105%] lg:h-[150%]">
                 <img
                   src={assets.goproduct}
                   alt="AirVault Go device"
-                  className="w-full h-[360px]"
+                  className="w-[105%] h-[105%] lg:w-[120%] lg:h-[100%]"
                 />
               </div>
             </div>
@@ -133,7 +115,7 @@ const Products = () => {
             <img
               src={assets.nas}
               alt="AirVault Pro server"
-              className="w-full md:rounded-[48px] -ml-2 md:ml-0 scale-100 md:scale-100"
+              className="w-full rounded-br-[48px] md:ml-0 scale-100 md:scale-100"
             />
           </div>
         </div>
